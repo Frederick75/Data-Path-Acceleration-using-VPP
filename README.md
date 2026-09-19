@@ -5,8 +5,11 @@ To compile and load either plugin into VPP:
 1. Build Step:  
 
 mkdir build && cd build 
+
 cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+
 make 
+
 sudo make install  
 
 2. Execution: 
